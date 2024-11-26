@@ -1,5 +1,3 @@
-# utils.py
-
 import numpy as np
 
 def apply_intensity_reduction(normal_map, mask, intensity_reduction=0.5, isReduceNoise=False):
