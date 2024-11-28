@@ -7,7 +7,7 @@ import io
 from utils import apply_intensity_reduction
 
 def edit_image(image, image_name):
-    st.header("Normal Map Editor")
+    st.header("Normal Map Editor")    
 
     if 'canvas_key' not in st.session_state:
         st.session_state['canvas_key'] = 0
@@ -111,6 +111,7 @@ def edit_image(image, image_name):
 def main():
     st.set_page_config(layout="wide")
     st.title("Normal Map Intensity Editor")
+    st.text("version 0.0.1")
 
     st.markdown(
         """
